@@ -11,11 +11,11 @@ angular.module('todomvc', ['ngRoute'])
 
         $routeProvider.when('/', {
             controller: 'TodoCtrl',
-            templateUrl: 'todomvc-index.html'
+            templateUrl: 'partials/view.html'
         })
         .when('/:status', {
             controller: 'TodoCtrl',
-            templateUrl: 'todomvc-index.html'
+            templateUrl: 'partials/view.html'
         })
         .otherwise({
             redirectTo: '/'
