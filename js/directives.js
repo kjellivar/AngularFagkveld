@@ -26,7 +26,7 @@ angular.module('todomvc')
  * expression it binds to evaluates to true
  */
 angular.module('todomvc')
-    .directive('todoFocus', function todoFocus($timeout) {
+    .directive('todoFocusIf', function todoFocus($timeout) {
         'use strict';
 
         return function (scope, elem, attrs) {
